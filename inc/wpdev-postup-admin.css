@@ -1,0 +1,30 @@
+.wrap.wpdev-postup-admin {
+    background: #fff;
+    padding: 0 1rem;
+    border-radius: 4px;
+}
+
+.wrap.wpdev-postup-admin form h2 {
+    color: #00bf6f;
+    text-transform: uppercase;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid #00bf6f;
+}
+
+.wpdev-postup-admin input#submit {
+    background: #00bf6f;
+    text-shadow: none;
+    border: none;
+    box-shadow: none;
+}
+
+.wpdev-postup-admin input#submit:hover {
+    background: #222;
+}
+
+.wpdev-postup-admin label.wpdev-postup-label {
+    display: block;
+    cursor: default;
+    font-size: 0.8rem;
+    color: rgba(35, 40, 45, 0.7);
+}
