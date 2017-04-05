@@ -439,24 +439,3 @@ function wpdev_postup_form( $atts ) {
 
 }
 add_shortcode( 'wpdevform', 'wpdev_postup_form' );
-
-
-
-/**
-Get List Information
-**/
-/*
-  $login = 'apiadmin@libertyalliance.com';
-  $password = 'Dphsh+pt71';
-  $url = 'https://api.postup.com/api/list/1';
-  $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, $url);
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-  curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
-  curl_setopt($ch, CURLOPT_USERPWD, "$login:$password");
-  $result = curl_exec($ch);
-  curl_close($ch);
-  $output = json_decode($result);
-  return $output->title;
-
-*/
